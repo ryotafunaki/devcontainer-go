@@ -1,6 +1,6 @@
-# Dev Containers Template Repository
+# Go Dev Container Repository
 
-This repository is a template for Dev Containers.
+This repository is a Dev Container for Go.
 
 ## Overview
 

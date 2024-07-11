@@ -2,7 +2,7 @@
 // This source code is managed under the MIT license. See LICENSE in the project root.
 {
   "name": "Dev Container Template",
-  "image": "ryotafunaki/devcontainer-go:latest",
+  "image": "ryotafunaki/devcontainer-go:sdk-1",
   "customizations": {
     "vscode": {
       "extensions": [

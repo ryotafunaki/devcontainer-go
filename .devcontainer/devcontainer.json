@@ -16,7 +16,8 @@
         "GitHub.remotehub",
         "GitHub.github-vscode-theme",
         "EditorConfig.EditorConfig",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "golang.Go"
       ]
     }
   }

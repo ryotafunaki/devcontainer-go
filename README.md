@@ -6,7 +6,7 @@ This repository is a Dev Container for Go.
 
 | Type | Summary |
 | --- | --- |
-| Base image and tags | golang:latest |
+| Base image and tags | golang:1-bookworm |
 | Target platform | linux/x64, linux/arm64 |
 | Container registry's URL | https://hub.docker.com/r/ryotafunaki/devcontainer-go/ |
 

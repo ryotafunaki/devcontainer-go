@@ -17,3 +17,12 @@ RUN apt clean && \
 
 # Switch to the non-root user
 USER ${USER_NAME}
+WORKDIR /home/${USER_NAME}
+
+# Install development tools
+COPY --chown=${USER_NAME}:${USER_NAME} ./shells/ ./shells/
+RUN cd ./shells && \
+    chmod +x install.sh && \
+    ./install.sh && \
+    cd ..
+RUN rm -rf ./shells

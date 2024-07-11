@@ -9,6 +9,10 @@ for file in $TARGET_FILES; do
     bash "$file"
 done
 
+# Clean up
+sudo apt clean
+sudo rm -rf /var/lib/apt/lists/*
+
 # Add path to the .bashrc file
 cat << EOT >> ~/.bashrc
 

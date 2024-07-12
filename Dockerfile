@@ -1,6 +1,6 @@
 # Copyright (c) 2024 RFull Development
 # This source code is managed under the MIT license. See LICENSE in the project root.
-FROM golang:latest
+FROM golang:1.17-bullseye
 
 # Install dependencies
 RUN apt update && \

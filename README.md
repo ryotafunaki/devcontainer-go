@@ -9,6 +9,7 @@ This repository is a Dev Container for Go.
 | Base image and tags | golang:latest |
 | Target platform | linux/x64, linux/arm64 |
 | Container registry's URL | https://hub.docker.com/r/ryotafunaki/devcontainer-go/ |
+| Installed packages | .NET SDK 8.0, Kiota |
 
 ## How to use
 

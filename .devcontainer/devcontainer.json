@@ -2,7 +2,10 @@
 // This source code is managed under the MIT license. See LICENSE in the project root.
 {
   "name": "Go Dev Container",
-  "image": "ryotafunaki/devcontainer-go:sdk-1.17",
+  "build":{
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
   "customizations": {
     "vscode": {
       "extensions": [
